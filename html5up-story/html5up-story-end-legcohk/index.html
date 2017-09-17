@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Note: Only needed for demo purposes. Delete for production sites.
+-->
+<html>
+
+<head>
+    <title>Story by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        #cover img {
+            opacity: 0.3
+        }
+        
+        .items section img {
+            width: 100%
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+
+        <!-- Banner -->
+        <section class="banner style5 fullscreen content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right onscroll-content-fade-up">
+            <div class="content">
+                <h1>23萬投票紀錄 回顧第五屆香港立法會</h1>
+                <p class="major">經歷雨傘運動、政改鬧劇和日益加重的社會撕裂，第五屆香港立法會終於在拉布中落幕。在新舊交替之際，我們蒐集第五屆立法會議員的全部投票紀錄，借助數據分析來回顧過去四年。
+                </p>
+                <!-- <p>
+                    一年前，端 Lab 製作重磅新聞《20萬條投票紀錄帶你解碼香港立法會》 分析第五屆立法會議員之間的支持關係。今天，我們延用其中的分析方法和思路，總結議員的投票行為。
+                </p> -->
+                <p>
+                    2012年10月至2016年7月期間，總共有71位議員對3362個議案做出電子表決，產生235292條紀錄。這些紀錄，均公開在香港立法會網站上，可作為觀察議事堂的利器。
+                </p>
+                <ul class="actions vertical">
+                    <li><a href="#first" class="button big wide smooth-scroll-middle">繼續閱讀</a></li>
+                </ul>
+            </div>
+            <div id="cover" class="image">
+                <img src="images/cover-photo.png" alt="" />
+            </div>
+        </section>
+
+        <section id="first" class="wrapper style1 align-left">
+            <div class="inner">
+                <h2>議員投票傾向光譜</h2>
+                <p>不同議員的投票傾向——誰更激進，誰更保守，誰和誰風格最似，想必是大家十分關注的內容。
+                </p>
+                <p>
+                    我們先蒐集議員對3362個議案投出的235292票紀錄，對於每個議案，議員可能產生五種不同的表決結果——贊成、反對、棄權、缺席或出席（即出席會議，但未投下「贊成」、「反對」或「棄權」中的任何一票2）。將不同的表決結果數值化後，使用主成分分析法（Principal Component Analysis，以下簡稱為 PCA），計算23萬票紀錄反映出的最大分歧，即主維度（Principal Axis），記為 PA1。同時我們計算每位議員的投票紀錄在 PA1 上的投影值，即主成分（Principal Component），記爲
+                    PC1。PC1 體現議員之間的相對關係，兩位議員得到的分值越接近，則說明他們的投票傾向也越接近。
+                </p>
+            </div>
+        </section>
+
+        <!-- Spotlight -->
+        <section class="spotlight style1 orient-left fullscreen content-align-left image-position-center onscroll-image-fade-in">
+            <!-- <section> -->
+            <div class="content">
+                <p>
+                    按照 PC1 分值由小到大排序，就得到一條數據驅動的「政治光譜」（如下圖所示）。光譜的兩端，分別是梁國雄和譚耀宗，這說明兩人的投票風格差異最大，相比其他議員，他們二者的投票風格最為激進。在這條「光譜」中間，是從不投票的曾鈺成。越靠近曾鈺成的人，投票風格就越溫和。越遠離曾鈺成的人，投票風格就越激進。而曾鈺成的兩邊，恰恰是建制和泛民兩派人馬，與常識相符</p>
+            </div>
+            <div class="image fit">
+                <img src="images/pattern.svg" alt="" />
+            </div>
+        </section>
+
+        <section class="wrapper style1 align-left">
+            <div class="inner">
+                <!-- <div class="content">
+                    <p>
+                        按照 PC1 分值由小到大排序，就得到一條數據驅動的「政治光譜」（如下圖所示）。光譜的兩端，分別是梁國雄和譚耀宗，這說明兩人的投票風格差異最大，相比其他議員，他們二者的投票風格最為激進。在這條「光譜」中間，是從不投票的曾鈺成。越靠近曾鈺成的人，投票風格就越溫和。越遠離曾鈺成的人，投票風格就越激進。而曾鈺成的兩邊，恰恰是建制和泛民兩派人馬，與常識相符</p>
+                </div>
+
+                <div class="image fit">
+                    <img src="images/pattern.svg" alt="" />
+                </div>
+ -->
+                <h2>建制和泛民，誰更激進？</h2>
+
+                <p>我們將光譜按照議員所屬派別塗色，從相對距離上來看，泛民陣營整體離曾鈺成更近，而建制則離得較遠。圖像顯示，建制派整體而言在投票中表現得比泛民更加激進。即建制派的建制立場，要強過泛民的民主立場。
+                </p>
+
+                <div class="image fit">
+                    <img src="images/camp-stand.svg" alt="" />
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Gallery -->
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>立法會議事圖片</h2>
+                <p>我們蒐集了若干立法會議事圖片，供讀者參考。圖片均來自網絡，開放授權。</p>
+            </div>
+
+            <!-- Gallery -->
+            <div class="gallery style2 medium lightbox onscroll-fade-in">
+                <article>
+                    <a href="images/gallery-legco-orig/legco1.jpg" class="image">
+                        <img src="images/gallery-legco/legco1.jpg" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="images/gallery-legco-orig/legco2.jpg" class="image">
+                        <img src="images/gallery-legco/legco2.jpg" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="images/gallery-legco-orig/legco3.jpg" class="image">
+                        <img src="images/gallery-legco/legco3.jpg" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="images/gallery-legco-orig/legco4.png" class="image">
+                        <img src="images/gallery-legco/legco4.png" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="images/gallery-legco-orig/legco5.jpg" class="image">
+                        <img src="images/gallery-legco/legco5.jpg" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="images/gallery-legco-orig/legco6.jpg" class="image">
+                        <img src="images/gallery-legco/legco6.jpg" alt="" />
+                    </a>
+                    <div class="caption">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Items -->
+        <section class="wrapper style1 align-left">
+            <div class="inner">
+                <h2>建制、泛民的分歧變遷</h2>
+                <p>再給這條光譜加上年份信息，即可看到動態變化。為了看清不同傾向和激進程度的人數分佈，我們使用 「KDE」（Kernal Density Estimation） 做可視化，並逐年分析，以上每張小圖分別對應一個議事年。由於每一年的議案數量不同、投票數自然也不同，為了確保可比性，我們事先將歷年投票紀錄 PC1 值的展開程度以2012～2013年的投票數量作為單位進行標準化。結果如上圖所示，橫軸是通過 PCA 計算出的第一維度值 PC1，代表議員的傾向（曾鈺為基準，數值為0）。縱軸是概率密度，每條曲線下面的面積爲「1」。
+                </p>
+                <p>
+                    這張圖能夠幫助我們分析兩派的投票發散程度。圖片中的曲線，若在橫軸上發散得更開，則表示投票風格差異越大。四年來，泛民議員對議案的投票傾向相對沒有發生太大改變，但在泛民內部，幾位常年拉布的成員與其他泛民議員的風格一直相差甚遠。另一邊廂，建制派在2012～2013年明顯地只有一個峰；2013～2014、2014～2015開始有雙峰跡象；至2015～2016年度分為明顯的兩個峰，而小峰亦與泛民有不小的交疊。這表示建制派中有一部份人就議案表決上與泛民變得接近。傾向在第三年和第四年逐年合攏。</p>
+
+                <div class="items style1 big onscroll-fade-in">
+                    <section>
+                        <img src="images/items/201209.png" alt="">
+                    </section>
+                    <section>
+                        <img src="images/items/201309.png" alt="">
+                    </section>
+                    <section>
+                        <img src="images/items/201409.png" alt="">
+                    </section>
+                    <section>
+                        <img src="images/items/201509.png" alt="">
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="banner style2 fullscreen content-align-right image-position-right onload-image-fade-in  onscroll-content-fade-down">
+            <div class="content">
+                <h2>地區直選和功能組別各自為陣</h2>
+                <p>若從議員類型上著手，可以看到，大多數功能組別的議員屬建制派。另外，泛民派多數議員來自地區或「區議會第二」選舉。
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/type-stand.svg" alt="" />
+            </div>
+        </section>
+
+
+
+        <section class="wrapper style1 align-left">
+            <div class="inner">
+                <!-- 
+
+                <div class="image fit">
+                    <img src="images/pc1-hist-all-motion-4-year-combined.svg" alt="" />
+                </div> -->
+
+                </p>
+
+                <h2>經民聯或是「最撕裂」政黨</h2>
+
+                <div class="image fit">
+                    <img src="images/party-stand.svg" alt="" />
+                </div>
+
+                <p>除了分析單個議員，我們亦可檢視一下各大政黨的表現。我們對前文提到的光譜做小小改造，把同屬一個政黨的議員放到一行，用一個點代表一位議員在光譜中的位次（黑色的點是曾鈺成，從不投票的他排在第29位），這樣就得到了一張表現政黨傾向的圖表。建制與泛民兩派內部的激進與溫和之分，一目了然。
+
+                </p>
+
+                <p> 同時，政黨內部是否足夠團結，也在圖中有所體現。在第五屆立法會中，佔有五個及以上議席的政黨總共有6個：公民黨（7席）、民主黨（6席）、自由黨（5席）、工聯會（6席）、民建聯（13席）和經民聯（7席）。其中，民主黨的6位議員風格投票非常一致，在光譜上的位置十分接近。反觀佔5個議席的自由黨，一端是主張「絕不會盲目支持政府政策」的批發及零售界議員方剛5，一端是航運交通界議員易志明，從最溫和到最激進，相隔16位議員。
+                </p>
+
+                <p> 另一個內部分裂嚴重的政黨是經民聯，7位議員中，盧偉國、張華峰、梁君彥排位相對接近，屬於激進的建制派，而劉皇發和石禮謙，則更偏中立。經民聯的分裂程度甚至超過了同為建制派大黨的民建聯。除去曾鈺成，民建聯的12位立法會議員，排名分佈在42位至71位中間，而經民聯的僅7位議員，排位分佈在35位至70位。
+                </p>
+
+                <h2>議員四年投票傾向變化
+                </h2>
+
+                <p>分析完黨派，最後看一下每位議員的傾向變化（註：此處分析不計入修正案）。我們先計算每位議員在每個時間區間（註：時間區間為1年）的位次，作出時間序列。以下這張互動圖表中，縱軸代表光譜位次，橫軸的每個點代表截至這個時點的一年時間，例如，「201310」代表2012年10月～2013年10月，「201401」代表2013年1月～2014年1月，依此類推，最後的「201607」代表2015年7月～2016年7月。圖中每個空心圓點，代表一位候選人在某一年中的光譜位次，將同一個人的空心點串接起來，就可以看到他／她在四年中的傾向變動狀況。
+                </p>
+                <p> 我們找出方差最大的四個時間序列，即4年間「波動」最大的四位議員（如下圖），分別是：吳亮星、鄧家彪、葛珮帆、潘兆平。
+                </p>
+                <p> 同時，讀者也可勾選感興趣的議員，自行探索。
+                </p>
+
+                <div id="chart-voting-variation" style="width: 100%; height: 600px;">
+
+                </div>
+
+                <script src="jquery.min.js"></script>
+                <script src="echarts.min.js">
+                </script>
+                <script>
+                    console.log('deferred charting');
+                    jQuery.getJSON('echarts-option-legco-5.json', function(data) {
+                        // window.data = data;
+                        console.log('data loaded');
+                        data['legend']['show'] = true;
+                        data['legend']['orient'] = 'horizontal';
+                        data['legend']['left'] = '5%';
+                        data['legend']['top'] = '50px';
+                        data['legend']['width'] = '90%';
+                        //data['legend']['itemWidth'] = '16';
+                        //data['legend']['itemHeight'] = '10';
+                        //data['legend']['itemGap'] = '5';
+                        data['legend']['textStyle'] = {
+                            'fontSize': '9'
+                        };
+                        data['grid'] = {};
+                        data['grid']['top'] = '190px';
+                        data['grid']['left'] = '5%';
+                        data['grid']['width'] = '90%';
+                        var myChart = echarts.init(document.getElementById('chart-voting-variation'));
+                        myChart.setOption(data);
+                    })
+                </script>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="wrapper style1 align-center">
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Note: Only needed for demo purposes. Delete for production sites. -->
+    <script src="assets/js/demo.js"></script>
+
+</body>
+
+</html>
